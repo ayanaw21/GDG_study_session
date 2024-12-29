@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #545151;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+button {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+}
