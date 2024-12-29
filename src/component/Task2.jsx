@@ -4,7 +4,8 @@ const task2 = () => {
 	const [count, setcount] = useState(0);
 	return (
 		<div>
-			<h1>count ={count}</h1>
+               <h1>Counter App</h1>
+			<h2>count ={count}</h2>
 			<button onClick={() => setcount(count + 1)}>Increment</button>
 			<button disabled={count === 0} onClick={() => setcount(count - 1)}>
 				Decrement
